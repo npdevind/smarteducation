@@ -10,12 +10,12 @@ body {
   //   font-style: normal;
 }
 
-// .menu_nav {
-//   background: linear-gradient(to right, #f32170, #ff6b08, #cf23cf, #eedd44);
-//   -webkit-text-fill-color: transparent;
-//   -webkit-background-clip: text;
-//   background-clip: text;
-// }
+.hero_title {
+  background: linear-gradient(to right, #f32170, #ff6b08, #cf23cf, #eedd44);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
 
 .headline {
   left: 130px;
@@ -24,10 +24,37 @@ body {
   clip-path: polygon(50% 0, 100% 0, 100% 100%, 0% 100%);
 }
 
+.main_nav_sec {
+  background: #f1f1f16e !important;
+  backdrop-filter: blur(14px) !important;
+}
+
 .hero_img {
+  // position: absolute;
+  // top: 2rem;
+  // right: 27rem;
   position: absolute;
-  top: 2rem;
+  top: 6rem;
   right: 27rem;
+  width: 38rem;
+}
+
+// .smart-hero{
+//   background: url(../assets/images/hero-bg.png) no-repeat center center fixed;
+//      -webkit-background-size: cover;
+//      -moz-background-size: cover;
+//      -o-background-size: cover;
+//      background-size: cover;
+// }
+.maintxt {
+  position: relative;
+}
+.maintxt > img,
+.overlay-text {
+  position: absolute;
+}
+.overlay-text {
+  padding: 150px 50px;
 }
 
 .header__socials {
@@ -51,14 +78,6 @@ body {
 .call_back_canvas {
   background: #b9b9b96e !important;
   backdrop-filter: blur(5px) !important;
-}
-
-.slick-arrow .slick-prev {
-  color: #030303 !important;
-}
-
-.slick-arrow .slick-next {
-  color: #030303 !important;
 }
 
 .course_card_shadow {

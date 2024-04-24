@@ -16,8 +16,11 @@ const Header = () => {
   return (
     <>
       <nav
-        className="navbar navbar-expand-sm sticky-top bg-white"
-        style={{ padding: "0.5rem 1rem", height: "60px" }}
+        className="navbar navbar-expand-sm sticky-top bg-white main_nav_sec"
+        style={{
+          padding: "0.5rem 1rem",
+          height: "60px",
+        }}
       >
         <div className="container-fluid" style={{ marginTop: "0.3rem" }}>
           <a className="navbar-brand">
@@ -53,13 +56,13 @@ const Header = () => {
             <ul className="navbar-nav gap-4">
               <li className="nav-item">
                 <div className="d-flex gap-2">
-                  <button className="btn btn-outline-primary border-0">
+                  <button className="btn btn-primary rounded border-0">
                     <i className="bi bi-credit-card-2-back"></i> Payment Online
                   </button>
-                  <button className="btn btn-outline-primary border-0">
+                  <button className="btn btn-primary border-0">
                     <i className="bi bi-box-arrow-in-right"></i> Login
                   </button>
-                  <button className="btn btn-outline-primary border-0">
+                  <button className="btn btn-primary border-0">
                     <i className="bi bi-door-open"></i> Admission/Registration
                   </button>
                 </div>

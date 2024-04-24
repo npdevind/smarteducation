@@ -10,16 +10,16 @@ const HeroSection = () => {
       >
         <div className="container">
           <div className="row">
-            <div className="col-md-5">
-              <h2 className="mb-4">
+            <div className="col-md-12">
+              <h2 className="mb-4 hero_title" style={{ fontSize: "3.5rem" }}>
                 Free Test Now To Find Out Where You Stand
               </h2>
-              <p>
+              <span style={{ fontSize: "1rem" }}>
                 We have an out of the box procedure to organize class for each
                 of the students of different ages.
-              </p>
+              </span>
 
-              <div className="d-flex gap-3 mb-4">
+              <div className="d-flex gap-3 mb-5 mt-4">
                 <button className="btn btn-danger">
                   <i className="bi bi-mortarboard-fill"></i> Free Test
                 </button>
@@ -29,39 +29,26 @@ const HeroSection = () => {
                 </button>
               </div>
 
-              <div className="card shadow border-0">
-                <div className="card-body">
-                  <div className="row">
-                    <div className="col-md-12 d-flex gap-2">
-                      <i className="bi bi-telephone-fill text-primary"></i>
-                      <div className=" d-flex gap-2">
-                        <p>(+91) 9932053428 </p>
-                        <p>(+91) 7908892206</p>
-                        <p>(+91) 9339944772</p>
-                      </div>
-                    </div>
+              <div className="row">
+                <div className="col-md-12 d-flex gap-2">
+                  <i className="bi bi-telephone-fill text-primary"></i>
+                  <div className=" d-flex gap-2">
+                    <p>(+91) 9932053428</p>
+                    <p>(+91) 7908892206</p>
+                    <p>(+91) 9339944772</p>
+                  </div>
+                </div>
 
-                    <div className="col-md-12 d-flex gap-2">
-                      <i className="bi bi-envelope-fill text-primary"></i>
-                      <div className=" d-flex gap-2">
-                        <p>director@smarteducation.org.in</p>
-                      </div>
-                    </div>
-
-                    {/* <div className="col-md-1">
-                      <i className="bi bi-envelope-fill"></i>
-                    </div>
-                    <div className="col-md-4">
-                      <p>director@smarteducation.org.in</p>
-                    </div> */}
+                <div className="col-md-12 d-flex gap-2">
+                  <i className="bi bi-envelope-fill text-primary"></i>
+                  <div className=" d-flex gap-2">
+                    <span>director@smarteducation.org.in</span>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="col-md-7 text-start">
-              <div className="hero_img">
-                <img src={hero} alt="" style={{ width: "154%" }} />
-              </div>
+            <div className="hero_img">
+              <img src={hero} alt="" style={{ width: "154%" }} />
             </div>
           </div>
         </div>
