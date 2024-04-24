@@ -1,9 +1,17 @@
+import OurCourses from "../components/OurCourses";
+
 const Home = () => {
   return (
     <>
-      {/* <div className="container ">
-        <h3 className="p-5">Free Test Now To Find Out Where You Stand</h3>
-      </div> */}
+      <div style={{ marginTop: "5rem" }}>
+        <div className="text-center mb-5">
+          <h2>Our Courses</h2>
+          <h5>We Have Courses For Everyone In Every Group</h5>
+        </div>
+        <div>
+          <OurCourses />
+        </div>
+      </div>
     </>
   );
 };
