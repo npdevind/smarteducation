@@ -20,27 +20,27 @@ const AboutUs = () => {
             Best quality study materials, chapter wise notes, quiz & qualitative
             exams to prepare you for achieving great results...
           </p>
-          <div className="d-flex mb-5">
-            <div className="card m-1 shadow-sm bg-success text-light border-0">
-              <div className="card-body">World Class</div>
+          <div className="mb-5">
+            <div className="about_unique_title m-2 fs-5">
+              <i className="bi bi-check-circle-fill"></i> World Class
             </div>
-            <div className="card m-1 shadow-sm bg-primary text-light border-0">
-              <div className="card-body">100% Preparation</div>
+            <div className="about_unique_title m-2 fs-5">
+              <i className="bi bi-check-circle-fill"></i> 100% Preparation
             </div>
-            <div className="card m-1 shadow-sm bg-info text-dark border-0">
-              <div className="card-body">Affordable</div>
+            <div className="about_unique_title m-2 fs-5">
+              <i className="bi bi-check-circle-fill"></i> Affordable
             </div>
-            <div className="card m-1 shadow-sm bg-warning text-dark border-0">
-              <div className="card-body">Always Available</div>
+            <div className="about_unique_title m-2 fs-5">
+              <i className="bi bi-check-circle-fill"></i> Always Available
             </div>
+            <Link
+              className="d-flex justify-content-md-end fs-4 gap-2"
+              style={{ textDecoration: "none" }}
+            >
+              <p>Know More</p>
+              <i className="bi bi-arrow-right-circle-fill"></i>
+            </Link>
           </div>
-          <Link
-            className="d-flex justify-content-md-end fs-4 gap-2"
-            style={{ textDecoration: "none" }}
-          >
-            <p>Know More</p>
-            <i className="bi bi-arrow-right-circle-fill"></i>
-          </Link>
         </div>
       </div>
     </>

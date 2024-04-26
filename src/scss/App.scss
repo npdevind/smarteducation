@@ -17,6 +17,32 @@ body {
   background-clip: text;
 }
 
+.my_hero {
+  background-image: url("../assets/images/hero-cover.jpg");
+  background-repeat: no-repeat;
+  // background-position: right;
+  background-size: cover;
+  height: 100vh;
+
+  /* Improve image rendering */
+  image-rendering: -moz-crisp-edges; /* Firefox */
+  image-rendering: -o-crisp-edges; /* Opera */
+  image-rendering: -webkit-optimize-contrast; /* Webkit (Safari) */
+  image-rendering: crisp-edges; /* CSS4 */
+  -ms-interpolation-mode: nearest-neighbor; /* IE (non-standard property) */
+}
+
+.about_unique_title {
+  background: radial-gradient(
+    circle,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(252, 70, 107, 1) 100%
+  );
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
 .headline {
   left: 130px;
 }
@@ -64,7 +90,7 @@ body {
   gap: 0.8rem;
   position: absolute;
   bottom: 12rem;
-  right: 0rem;
+  // right: 0rem;
 }
 
 .header__socials::after {

@@ -85,29 +85,6 @@ const SocialLink = () => {
           </div>
         </Offcanvas.Body>
       </Offcanvas>
-      {/* <div
-        className="collapse navbar-collapse justify-content-end"
-        id="socialNavbar"
-      >
-        <ul className="navbar-nav ">
-          <li className="nav-item">
-            <div className="d-flex gap-4">
-              <Link className="btn text-info border-0 fs-4">
-                <i className="bi bi-google"></i>
-              </Link>
-              <Link className="btn text-primary border-0 fs-4">
-                <i className="bi bi-facebook"></i>
-              </Link>
-              <Link className="btn text-danger border-0 fs-4">
-                <i className="bi bi-instagram"></i>
-              </Link>
-              <Link className="btn text-danger border-0 fs-3">
-                <i className="bi bi-youtube"></i>
-              </Link>
-            </div>
-          </li>
-        </ul>
-      </div> */}
     </>
   );
 };

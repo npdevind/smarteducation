@@ -1,16 +1,16 @@
 import React from "react";
-import hero from "../assets/images/hero.png";
 
 const HeroSection = () => {
   return (
     <>
       <div
         // className="bg-secondary opacity-25 text-light"
+        className="my_hero"
         style={{ padding: "8rem" }}
       >
         <div className="container">
           <div className="row">
-            <div className="col-md-12">
+            <div className="col-md-8">
               <h2 className="mb-4 hero_title" style={{ fontSize: "3.5rem" }}>
                 Free Test Now To Find Out Where You Stand
               </h2>
@@ -46,9 +46,6 @@ const HeroSection = () => {
                   </div>
                 </div>
               </div>
-            </div>
-            <div className="hero_img">
-              <img src={hero} alt="" style={{ width: "154%" }} />
             </div>
           </div>
         </div>
